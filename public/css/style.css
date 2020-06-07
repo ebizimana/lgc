@@ -1,0 +1,44 @@
+.navbar {
+  opacity: 1.4;
+}
+
+#home-heading {
+  background: url("https://lh3.googleusercontent.com/JL5BWIW0KNGZx73XQLihvr44JjUwrkNR1J-fgYOHsrcK1PmE39Q9QoaMDfuZfgmGyf0") center center / cover no-repeat;
+  position: relative;
+  min-height: 550px;
+  background-attachment: fixed;
+  margin-top: -9rem;
+  z-index: -1;
+}
+
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  height: 350px;
+}
+
+#showcase hr {
+  width: 75%;
+  height: 0.1em;
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 500px;
+  }
+
+  #home-heading {
+    min-height: 0;
+  }
+}
+
+#vision {
+  background-color: black;
+}
